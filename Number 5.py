@@ -1,4 +1,5 @@
-v, f = 343, 256
-print("The speed (m/s): " + str(v))
-print("The frequency (Hz): " + str(f))
-print("The wavelength (m): " + str(v/f))
+v = input("Input the velocity: ")
+f = input("Input the frequency: ")
+print("The speed (m/s): " + v)
+print("The frequency (Hz): " + f)
+print("The wavelength (m): " + str(float(v)/float(f)))
