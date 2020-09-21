@@ -1,4 +1,4 @@
 Degree = 150
-Radians = Degrees * 3.14 / 180
-print("Degrees: " + Degree)
-print("Radians: " + Radians)
+Radians = Degree * 3.14 / 180
+print("Degrees: " + str(Degree))
+print("Radians: " + str(Radians))
